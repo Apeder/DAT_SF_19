@@ -61,3 +61,5 @@ servewd 2>/dev/null &
 echo 'I am just a cow, but this program is amusing' | cowsay
 ```
 <p>As it turns out, R plots can be executed from the command line using Jeroen Janssens very helpful method: http://datascienceatthecommandline.com/#dst.  While there was not enough time in the weekend to create a fancy R plot for the Chipotle dataset, I am looking forward to working much more with the UNIX command line!</p>
+
+![Fancy R Plot from Command Line!](https://github.com/Apeder/DAT_SF_19/blob/master/Homework/output.png "ggplot2 from the command line!")
