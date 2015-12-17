@@ -58,8 +58,7 @@ Democracy Engine, Inc., PAC                                                     
 WOMEN SPEAK OUT PAC                                                                                                                                                                |  45443   
 League of Conservation Voters Action Fund                                                                                                                                          |  44471   
 NRCC                                                                                                                                                                               |  39676   
-ACTRIGHT                                                                   
-															   |  35043
+ACTRIGHT                                                      |  35043
 
 #Workplan
 
