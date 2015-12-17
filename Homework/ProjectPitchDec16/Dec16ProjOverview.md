@@ -6,19 +6,19 @@
 Though the beta API was only released in summer of 2015, it has already attracted some major third party development:
 
 * https://api.open.fec.gov/developers/
-⋅⋅* https://github.com/18F/openFEC
+  * https://github.com/18F/openFEC
 * http://sunlightlabs.github.io/realtime-docs/
-⋅⋅* https://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/
-⋅⋅* http://influenceexplorer.com/
+  * https://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/
+  * http://influenceexplorer.com/
 * http://developer.nytimes.com/docs/campaign_finance_api/
 
 This project seeks to explore, visualize and model this data as an entity-based graph to attempt to predict what groups will spend money on what kind of services on which race at a given time.  Exact predictive capabilities and accuracy will not be known until specific features are extracted from the dataset and several machine learning models are trained and tested. 
 
 ##Questions
 1. What does the network of PACs, candidates and vendors look like? 
-⋅⋅1. How does money move through this network? What trends and patterns are noticeable? 
+  1. How does money move through this network? What trends and patterns are noticeable? 
 2. How does behavior in this network vary over time? 
-⋅⋅2. What clusters can we observe? Do clusters have features that can reliably predict behavior based on entity attributes and time? 
+  2. What clusters can we observe? Do clusters have features that can reliably predict behavior based on entity attributes and time? 
 3. How much data about election cycle spending is necessary to make accurate predictions? Is it possible to expand the datasets timeseries to comprise all knwon US elections, or is data before 2010 completely unavailable? 
 
 
@@ -61,15 +61,4 @@ NRCC                                                                            
 ACTRIGHT                                                      |  35043
 
 #Workplan
-
-
-What is the question you hope to answer? What data are you planning to use to answer that question? What do you know about the data so far? Why did you choose this topic?
-
-
-
-Example:
-
-* I'm planning to predict passenger survival on the Titanic.
-* I have Kaggle's Titanic dataset with 10 passenger characteristics.
-* I know that many of the fields have missing values, that some of the text fields are messy and will require cleaning, and that about 38% of the passengers in the training set survive.
-* I chose this topic because I'm fascinated by the history of the Titanic.
+Do a lot of munging, build entity objects and graph, then see if we can predict data before it's filed every day. 
