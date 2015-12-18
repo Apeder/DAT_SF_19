@@ -7,6 +7,8 @@ Though the beta API was only released in summer of 2015, it has already attracte
 
 * https://api.open.fec.gov/developers/
   * https://github.com/18F/openFEC
+  * https://18f.gsa.gov/
+  * https://github.com/Apeder/openFEC/tree/develop/data
 * http://sunlightlabs.github.io/realtime-docs/
   * https://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/
   * http://influenceexplorer.com/
